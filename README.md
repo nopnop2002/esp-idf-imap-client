@@ -49,7 +49,7 @@ You can choose which emails to fetch.
 
 If you want to search the string included in the subject, specify the search string.
 
-![config-imap-4](https://github.com/nopnop2002/esp-idf-imap-client/assets/6020549/0aae82d4-637e-48da-885e-60d3aeec85bd)
+![config-imap-4](https://github.com/nopnop2002/esp-idf-imap-client/assets/6020549/a3982871-ea81-4b3e-add9-25f369857d70)
 
 # Screen Shot   
 I searched for the string `Add a profile photo`.   
