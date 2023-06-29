@@ -1,0 +1,80 @@
+menu "Application Configuration"
+
+	menu "WiFi Setting"
+
+		config ESP_WIFI_SSID
+			string "WiFi SSID"
+			default "myssid"
+			help
+				SSID (network name) to connect to.
+
+		config ESP_WIFI_PASSWORD
+			string "WiFi Password"
+			default "mypassword"
+			help
+				WiFi password (WPA or WPA2) to use.
+
+		config ESP_MAXIMUM_RETRY
+			int "Maximum retry"
+			default 5
+			help
+				Set the Maximum retry to avoid station reconnecting to the AP unlimited when the AP is really inexistent.
+
+	endmenu
+
+	menu "IMAP Server Setting"
+
+		config IMAP_SERVER
+			string "Mail Server"
+			default "imap.googlemail.com"
+			help
+				Target domain for the example to connect to.
+
+		config IMAP_PORT_NUMBER
+			string "Mail port number"
+			default "993"
+			help
+				Mail port number for the example to connect to.
+
+		config IMAP_SENDER_MAIL
+			string "Email user"
+			default "user@gmail.com"
+			help
+				Sender's Email address
+
+		config IMAP_SENDER_PASSWORD
+			string "Emall password(Apprication key)"
+			default "ApplicationKey"
+			help
+				Sender's email password
+
+		choice IMAP_SEARCH
+			bool "Select search option"
+			default IMAP_SEARCH_ALL
+			help
+				Select search option.
+
+			config IMAP_SEARCH_ALL
+				bool "Fetch all emails"
+			config IMAP_SEARCH_SEEN
+				bool "Fetch read emails"
+			config IMAP_SEARCH_UNSEEN
+				bool "Fetch unread emails"
+			config IMAP_SEARCH_ANSWERED
+				bool "Fetch Replied emails"
+			config IMAP_SEARCH_NOANSWERED
+				bool "Fetch Not Replied emails"
+			config IMAP_SEARCH_SUBJECT
+				bool "Fetch contains the specified string in the Subject emails"
+		endchoice
+
+		config IMAP_SEARCH_SUBJECT_TEXT
+			depends on IMAP_SEARCH_SUBJECT
+			string "Serach strings"
+			default "Serach Strings"
+			help
+				Serach strings.
+
+	endmenu
+
+endmenu
