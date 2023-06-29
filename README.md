@@ -1,7 +1,7 @@
 # esp-idf-imap-client
 IMAP email client for esp-idf.
 
-esp-idf contains an email smtp client example, but an imap enail client example is missing.   
+esp-idf contains an email smtp client example, but an imap email client example is missing.   
 So i made imap email client example.   
 I used [this](https://github.com/RealAlphabet/IMAP) as a reference.   
 
