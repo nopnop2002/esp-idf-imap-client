@@ -48,7 +48,6 @@ You can choose which emails to fetch.
 ![config-imap-3](https://github.com/nopnop2002/esp-idf-imap-client/assets/6020549/65f59912-d0b1-4034-9d57-c50957d6910f)
 
 If you want to search the string included in the subject, specify the search string.
-
 ![config-imap-4](https://github.com/nopnop2002/esp-idf-imap-client/assets/6020549/a3982871-ea81-4b3e-add9-25f369857d70)
 
 # Screen Shot   
