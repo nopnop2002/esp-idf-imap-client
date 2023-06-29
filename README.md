@@ -29,7 +29,7 @@ Set the following items using menuconfig.
 
 ![config-wifi](https://github.com/nopnop2002/esp-idf-imap-client/assets/6020549/4cefe2fb-6476-4fc2-92d4-af7f29c0f226)
 
-## IMAP server Setting
+## IMAP Server Setting
 __I've only tested with a Gmail account.__   
 If you want to use a non-gmail account, you need to change gmail_root_cert.pem according to [this](https://github.com/espressif/esp-idf/issues/7250) instruction.   
 
