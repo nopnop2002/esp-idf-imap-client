@@ -70,8 +70,8 @@ menu "Application Configuration"
 
 		config IMAP_SEARCH_SUBJECT_TEXT
 			depends on IMAP_SEARCH_SUBJECT
-			string "Serach strings"
-			default "Serach Strings"
+			string "Search strings"
+			default "Search Strings"
 			help
 				Serach strings.
 
