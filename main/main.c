@@ -542,7 +542,7 @@ static void imap_client_task(void *pvParameters)
 		ESP_LOGE(TAG, "imap_search_mailboxes fail");
 		goto exit;
 	}
-	ESP_LOGI(TAG, "imap_retch_mailboxes mails=%d", mails);
+	ESP_LOGI(TAG, "imap_search_mailboxes mails=%d", mails);
 
 	// Fetch mail header.
 	for (int i=0;i<mails;i++) {

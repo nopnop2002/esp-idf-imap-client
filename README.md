@@ -53,7 +53,7 @@ If you want to search the string included in the subject, specify the search str
 
 # Screen Shot   
 I searched for the string `Add a profile photo`.   
-![ScreenShot](https://github.com/nopnop2002/esp-idf-imap-client/assets/6020549/785fcfe3-bc0c-4320-bc5c-97a376d6d59d)
+![ScreenShot](https://github.com/nopnop2002/esp-idf-imap-client/assets/6020549/d6ffc008-f216-4c12-b986-1993971c98cd)
 
 
 # Subject encoding   
