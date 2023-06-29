@@ -2,7 +2,7 @@
 IMAP email client for esp-idf.
 
 esp-idf contains an email smtp client example, but an imap enail client example is missing.   
-So i made imap enail client example.   
+So i made imap email client example.   
 I used [this](https://github.com/RealAlphabet/IMAP) as a reference.   
 
 # Software requirements
@@ -55,3 +55,9 @@ If you want to search the string included in the subject, specify the search str
 I searched for the string `Add a profile photo`.   
 
 ![ScreenShot](https://github.com/nopnop2002/esp-idf-imap-client/assets/6020549/785fcfe3-bc0c-4320-bc5c-97a376d6d59d)
+
+
+# Subject encoding   
+The subject may be an encoded string, such as UTF-8.   
+This project does not decode these.   
+![Encording](https://github.com/nopnop2002/esp-idf-imap-client/assets/6020549/24af7983-7d38-4544-adf3-d05577949ec6)
