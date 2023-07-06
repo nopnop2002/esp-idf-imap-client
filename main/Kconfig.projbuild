@@ -43,7 +43,7 @@ menu "Application Configuration"
 				Sender's Email address
 
 		config IMAP_SENDER_PASSWORD
-			string "Emall password(Apprication key)"
+			string "Emall password(App password)"
 			default "ApplicationKey"
 			help
 				Sender's email password
